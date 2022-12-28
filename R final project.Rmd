@@ -1,0 +1,29 @@
+---
+title: "R final project"
+author: "Akolade Sofiyyah Iwalewa,22201441"
+date: "2022-12-17"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction to dataset 
+
+
+```{r}
+#Loading the dataset into 
+
+covid_df <- read.csv("COVID19 cases.csv") # first row contains column headings
+```
+
+```{r}
+# viewing the first few rows of the data set
+head(covid_df)
+```
+# Load the data
+crime2019 <- read.csv("EurostatCrime2019.csv", 
+  header = TRUE, # first row contains column names
+  row.names = 1) # first column contains country names
+
